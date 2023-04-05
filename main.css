@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+.html{
+    height: 100%;
+    height: 100vh;
+}
+.body{
+    font-family: 'Amiro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+    header{
+        display:flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        margin: 10px 20px;
+    }
+    .droite{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    header a{
+        margin-right: 10px;
+        color: #787878;
+        cursor: pointer;
+    }
+    .points{
+        display: flex;
+        margin-bottom: 12px;
+    }
+    .bouton:hover{
+        color: #000;
+    }
+    .bouton{
+        margin-left: 10px;
+    }
+
+    header a:hover{
+        color: #000;
+    }
+    header .droite svg{
+        height: 30px;
+        width: 30px;
+        margin-top: 10px;
+        margin-right: 10px;
+        cursor:pointer;
+        
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .barre{
+        display: flex;
+        justify-content: center;
+        height: 25px;
+        width: 40%;
+        border-radius: 20px;
+        text-indent: 2%;
+    }
+    .boutons{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .chance {
+        justify-content: center;
+        align-items: center;
+        background-color: #a0a0a0;
+        border: 1px solid #a0a0a0;
+        border-radius: 5px;
+        color: #e8eaed;
+        font-family: arial,sans-serif;
+        font-size: 15px;
+        margin: 10px 5px;
+        padding: 0 15px;
+        line-height: 25px;
+        height: 25px;
+        min-width: 50px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .chance:hover {
+        color: #000;
+    }
+    .bas {
+        position: absolute;
+        flex-direction: row;
+        justify-content:space-between;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        bottom: 0px;
+        width: 100%;
+    }
+    .bas2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    .bdroite {
+        display: flex;
+        justify-content: flex-end;
+        min-width: 30%;
+        order: 2;
+    }
+    .bgauche {
+        display: flex;
+        justify-content: flex-start;
+        min-width: 30%;
+        order: 0;
+    }
+    .bmilieu {
+        display: flex;
+        justify-content: center;
+        min-width: 30%;
+        order: 1;
+    }
+    .lien{
+        padding: 10px 10px 10px 10px;
+    }
